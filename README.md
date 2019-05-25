@@ -26,7 +26,8 @@
 	
 	然后在将.a文件拖入project 
 
-	![avatar](02.jpg) 
+	
+![avatar](02.jpg) 
 
 3.这个时候在ViewController 里面就可以直接引用 然后测试了 
 	
