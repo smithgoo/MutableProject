@@ -1,0 +1,1 @@
+../../../PrivateVideoPlayer/PrivateVideoPlayer/Classes/KPDrawPaintView.h

@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - PrivateVideoPlayer (0.1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - PrivateVideoPlayer (from `https://github.com/smithgoo/movesPlayer.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  PrivateVideoPlayer:
+    :git: https://github.com/smithgoo/movesPlayer.git
+
+CHECKOUT OPTIONS:
+  PrivateVideoPlayer:
+    :commit: 0194b5c2a4ea948188e1505ae0519e8520f9ce4c
+    :git: https://github.com/smithgoo/movesPlayer.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  PrivateVideoPlayer: 93fa1839a0b1e9d54b63d7e5eb1d0041ae4d1375
+
+PODFILE CHECKSUM: 31577b23b0614df9835c7bc11f155b09a6b2d7c1
+
+COCOAPODS: 1.6.0.beta.2

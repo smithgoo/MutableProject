@@ -1,0 +1,22 @@
+{
+  "name": "PrivateVideoPlayer",
+  "version": "0.1.0",
+  "summary": "test sth doing",
+  "description": "video test  i do this",
+  "homepage": "https://github.com/smithgoo/movesPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "294336370@qq.com": "295336370@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/smithgoo/movesPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PrivateVideoPlayer/Classes/**/*"
+}
