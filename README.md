@@ -25,6 +25,7 @@
 	以ReqAPI 为例 我们创建好之后 还不能使用 这个时候我们需要将ReqAPI 的路径和生成的.a 文件和路径相关联
 	
 	然后在将.a文件拖入project 
+
 	![avatar](02.jpg) 
 
 3.这个时候在ViewController 里面就可以直接引用 然后测试了 
@@ -41,13 +42,14 @@
 	这个时候你就可以写你要封装的方法来使用  
 	但是你又会碰到一个问题 你没办法使用三方库文件 
 4.引用三方库文件
+![avatar](03.jpg) 
 	
 	
 	我使用的是 AFNetworkig 作为例子
 	
 	我们要做的是将pod 里面的AFN的目录拖入进 ReqAPI的 header path
 	
-	![avatar](03.jpg) 
+	
 
 这个时候你运行我写的方法 你会发现 
 
