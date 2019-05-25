@@ -19,13 +19,13 @@
 	$ pod lib lint --verbose --use-libraries --allow warnings
 	
 2.创建一个动态库或者静态库 你可以作为你的UI 或者网络请求的部分 反正你想怎么玩 自己验证就行了
-	![avatar](1.jpg)
+	![avatar](01.jpg)
 	
 	首先创建一个静态库文件 目录一定要和你的project 在一个层级上 选择新建的时候不要add 到当前的porject 中
 	以ReqAPI 为例 我们创建好之后 还不能使用 这个时候我们需要将ReqAPI 的路径和生成的.a 文件和路径相关联
 	
 	然后在将.a文件拖入project 
-	![](02.jpg) 
+	![avatar](02.jpg) 
 
 3.这个时候在ViewController 里面就可以直接引用 然后测试了 
 	
@@ -47,7 +47,7 @@
 	
 	我们要做的是将pod 里面的AFN的目录拖入进 ReqAPI的 header path
 	
-	![](03.jpg)  
+	![avatar](03.jpg) 
 
 这个时候你运行我写的方法 你会发现 
 
